@@ -1,0 +1,18 @@
+{
+    "dataset_type": "image",
+    "total_files": 1750,
+    "emotion_counts": {
+        "Angry": 250,
+        "Disgust": 250,
+        "Fear": 250,
+        "Happy": 250,
+        "Sad": 250,
+        "Surprise": 250,
+        "Neutral": 250
+    },
+    "duplicate_count": 0,
+    "duplicates": [],
+    "corrupted_count": 0,
+    "corrupted_files": [],
+    "metadata_csv_path": "E:\\PROJECT 33\\PROJECT 33\\backend\\sample_datasets\\image_dataset\\metadata.csv"
+}
