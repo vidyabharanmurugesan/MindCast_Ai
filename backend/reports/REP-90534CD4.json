@@ -1,0 +1,33 @@
+{
+    "report_id": "REP-90534CD4",
+    "session_id": "SESS-D11E062E",
+    "generated_at": "2026-08-05T06:41:01.470043+00:00",
+    "patient_details": {
+        "patient_id": "PAT-1002",
+        "name": "vidyabharan",
+        "age": 20,
+        "gender": "Male",
+        "hospital": "MindMate AI",
+        "attending_physician": "vidyabharan"
+    },
+    "fused_clinical_result": {
+        "overall_emotion": "Sad",
+        "face_emotion": "Sad",
+        "face_confidence": 72.48,
+        "voice_emotion": "Fear",
+        "voice_confidence": 76.0,
+        "stress_score": 84.62,
+        "mental_health_score": 15.38,
+        "confidence": 74.24,
+        "risk_level": "CRITICAL",
+        "doctor_observation": "Patient exhibited predominantly 'Sad' facial expression (72.5% confidence) and 'Fear' vocal tone (76.0% confidence). Fused clinical stress index measured at 84.62/100 (CRITICAL risk).",
+        "recommendations": {
+            "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+            "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+            "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+            "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+            "clinical_note": "Critical Risk - Immediate professional intervention requested."
+        }
+    },
+    "digital_signature": "DIGITAL-SIG-VERIFIED-REP-90534CD4"
+}

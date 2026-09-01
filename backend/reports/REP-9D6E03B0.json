@@ -1,0 +1,33 @@
+{
+    "report_id": "REP-9D6E03B0",
+    "session_id": "SESS-0B906ACD",
+    "generated_at": "2026-08-05T05:07:51.306985+00:00",
+    "patient_details": {
+        "patient_id": "PAT-1002",
+        "name": "KISHORE K",
+        "age": 20,
+        "gender": "Male",
+        "hospital": "St. Jude AI Mental Health Center",
+        "attending_physician": "vidyabharan"
+    },
+    "fused_clinical_result": {
+        "overall_emotion": "Neutral",
+        "face_emotion": "Neutral",
+        "face_confidence": 99.66,
+        "voice_emotion": "Disgust",
+        "voice_confidence": 30.0,
+        "stress_score": 29.88,
+        "mental_health_score": 70.12,
+        "confidence": 64.83,
+        "risk_level": "LOW",
+        "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (99.7% confidence) and 'Disgust' vocal tone (30.0% confidence). Fused clinical stress index measured at 29.88/100 (LOW risk).",
+        "recommendations": {
+            "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+            "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+            "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+            "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+            "clinical_note": "Low Risk - Maintain normal mental wellness routines."
+        }
+    },
+    "digital_signature": "DIGITAL-SIG-VERIFIED-REP-9D6E03B0"
+}

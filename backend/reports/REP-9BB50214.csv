@@ -1,0 +1,2 @@
+Report ID,Session ID,Patient ID,Patient Name,Overall Emotion,Stress Score,Mental Health Score,Risk Level,Generated At
+REP-9BB50214,SESS-10A56BBB,PATIENT-TEST-99,Jane Doe,Neutral,20.0,80.0,LOW,2026-08-05T05:06:15.431488+00:00

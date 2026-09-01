@@ -1,0 +1,2 @@
+Report ID,Session ID,Patient ID,Patient Name,Overall Emotion,Stress Score,Mental Health Score,Risk Level,Generated At
+REP-90534CD4,SESS-D11E062E,PAT-1002,vidyabharan,Sad,84.62,15.38,CRITICAL,2026-08-05T06:41:01.470043+00:00

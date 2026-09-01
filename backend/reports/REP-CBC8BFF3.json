@@ -1,0 +1,33 @@
+{
+    "report_id": "REP-CBC8BFF3",
+    "session_id": "SESS-01F3FDBC",
+    "generated_at": "2026-08-05T04:42:29.338824+00:00",
+    "patient_details": {
+        "patient_id": "PATIENT-GUI-001",
+        "name": "Jane Doe",
+        "age": 32,
+        "gender": "Female",
+        "hospital": "St. Jude AI Mental Health Center",
+        "attending_physician": "Dr. Sarah Jenkins, MD"
+    },
+    "fused_clinical_result": {
+        "overall_emotion": "Neutral",
+        "face_emotion": "Neutral",
+        "face_confidence": 97.8,
+        "voice_emotion": "Angry",
+        "voice_confidence": 21.0,
+        "stress_score": 29.71,
+        "mental_health_score": 70.29,
+        "confidence": 59.4,
+        "risk_level": "LOW",
+        "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (97.8% confidence) and 'Angry' vocal tone (21.0% confidence). Fused clinical stress index measured at 29.71/100 (LOW risk).",
+        "recommendations": {
+            "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+            "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+            "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+            "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+            "clinical_note": "Low Risk - Maintain normal mental wellness routines."
+        }
+    },
+    "digital_signature": "DIGITAL-SIG-VERIFIED-REP-CBC8BFF3"
+}

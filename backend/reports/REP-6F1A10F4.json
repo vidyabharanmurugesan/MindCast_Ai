@@ -1,0 +1,33 @@
+{
+    "report_id": "REP-6F1A10F4",
+    "session_id": "SESS-DBC20781",
+    "generated_at": "2026-08-05T05:59:59.965018+00:00",
+    "patient_details": {
+        "patient_id": "PAT-1002",
+        "name": "VIDYABHARAN M",
+        "age": 20,
+        "gender": "Male",
+        "hospital": "St. Jude AI Mental Health Center",
+        "attending_physician": "vidyabharan"
+    },
+    "fused_clinical_result": {
+        "overall_emotion": "Neutral",
+        "face_emotion": "Neutral",
+        "face_confidence": 96.87,
+        "voice_emotion": "Disgust",
+        "voice_confidence": 30.0,
+        "stress_score": 30.11,
+        "mental_health_score": 69.89,
+        "confidence": 63.43,
+        "risk_level": "MODERATE",
+        "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (96.9% confidence) and 'Disgust' vocal tone (30.0% confidence). Fused clinical stress index measured at 30.11/100 (MODERATE risk).",
+        "recommendations": {
+            "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+            "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+            "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+            "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+            "clinical_note": "Moderate Stress Detected - Mindfulness and relaxation recommended."
+        }
+    },
+    "digital_signature": "DIGITAL-SIG-VERIFIED-REP-6F1A10F4"
+}

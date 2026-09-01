@@ -1,0 +1,33 @@
+{
+    "report_id": "REP-646A479B",
+    "session_id": "SESS-583CBF85",
+    "generated_at": "2026-08-31T08:55:48.806043+00:00",
+    "patient_details": {
+        "patient_id": "PAT-1002",
+        "name": "Jane Doe",
+        "age": 32,
+        "gender": "Female",
+        "hospital": "MindMate AI",
+        "attending_physician": "Dr. Sarah Jenkins, MD"
+    },
+    "fused_clinical_result": {
+        "overall_emotion": "Neutral",
+        "face_emotion": "Neutral",
+        "face_confidence": 96.87,
+        "voice_emotion": "Disgust",
+        "voice_confidence": 31.0,
+        "stress_score": 30.38,
+        "mental_health_score": 69.62,
+        "confidence": 63.93,
+        "risk_level": "MODERATE",
+        "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (96.9% confidence) and 'Disgust' vocal tone (31.0% confidence). Fused clinical stress index measured at 30.38/100 (MODERATE risk).",
+        "recommendations": {
+            "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+            "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+            "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+            "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+            "clinical_note": "Moderate Stress Detected - Mindfulness and relaxation recommended."
+        }
+    },
+    "digital_signature": "DIGITAL-SIG-VERIFIED-REP-646A479B"
+}

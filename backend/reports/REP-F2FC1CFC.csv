@@ -1,0 +1,2 @@
+Report ID,Session ID,Patient ID,Patient Name,Overall Emotion,Stress Score,Mental Health Score,Risk Level,Generated At
+REP-F2FC1CFC,SESS-FABC7187,PAT-1002,Jane Doe,Neutral,30.38,69.62,MODERATE,2026-08-05T04:56:41.945374+00:00
