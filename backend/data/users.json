@@ -1,0 +1,32 @@
+{
+    "doctor@hospital.com": {
+        "email": "doctor@hospital.com",
+        "full_name": "Dr. Sarah Jenkins",
+        "role": "Physician",
+        "password_hash": "f348d5628621f3d8f59c8cabda0f8eb0aa7e0514a90be7571020b1336f26c113"
+    },
+    "vbdevlking001@gmail.com": {
+        "email": "vbdevlking001@gmail.com",
+        "full_name": "VIDYABHARAN",
+        "role": "Doctor / Physician",
+        "password_hash": "a0cfe3b433d150c748cd82f6c0c829b89a826560948bdeb6e4546aa5bb8a20d1"
+    },
+    "vbdevilking001@gmail.com": {
+        "email": "vbdevilking001@gmail.com",
+        "full_name": "vidyabharan",
+        "role": "Doctor / Physician",
+        "password_hash": "a0cfe3b433d150c748cd82f6c0c829b89a826560948bdeb6e4546aa5bb8a20d1"
+    },
+    "selvam@gmail.com": {
+        "email": "selvam@gmail.com",
+        "full_name": "selvam",
+        "role": "Doctor / Physician",
+        "password_hash": "7b36e881d05e16123cf049b86d98e05c420b44628e9b732c9f1057f2ff73da1a"
+    },
+    "720723115029@hicet.ac.in": {
+        "email": "720723115029@hicet.ac.in",
+        "full_name": "KARTHICK",
+        "role": "Doctor / Physician",
+        "password_hash": "750a26c03391c60bc9d45c42beadbf54be1b4bdc3460ea87da36d1aa829f1c4d"
+    }
+}

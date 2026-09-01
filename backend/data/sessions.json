@@ -1,0 +1,234 @@
+{
+    "SESS-583CBF85": {
+        "session_id": "SESS-583CBF85",
+        "patient_id": "PAT-1002",
+        "start_time": "2026-08-31T08:54:56.595116+00:00",
+        "end_time": "2026-08-31T08:55:48.804155+00:00",
+        "status": "COMPLETED",
+        "face_predictions": [
+            {
+                "emotion": "Neutral",
+                "confidence": 96.87,
+                "probabilities": {
+                    "Angry": 0.0207,
+                    "Disgust": 0.0005,
+                    "Fear": 0.0057,
+                    "Happy": 0.0003,
+                    "Sad": 0.0005,
+                    "Surprise": 0.0036,
+                    "Neutral": 0.9687
+                },
+                "timestamp": "2026-08-31T08:55:21.872333+00:00"
+            }
+        ],
+        "voice_predictions": [
+            {
+                "emotion": "Disgust",
+                "confidence": 31.0,
+                "probabilities": {
+                    "Angry": 0.08,
+                    "Disgust": 0.31,
+                    "Fear": 0.0,
+                    "Happy": 0.23,
+                    "Neutral": 0.17,
+                    "Sad": 0.06,
+                    "Surprise": 0.15
+                },
+                "timestamp": "2026-08-31T08:55:44.059188+00:00"
+            }
+        ],
+        "fused_result": {
+            "overall_emotion": "Neutral",
+            "face_emotion": "Neutral",
+            "face_confidence": 96.87,
+            "voice_emotion": "Disgust",
+            "voice_confidence": 31.0,
+            "stress_score": 30.38,
+            "mental_health_score": 69.62,
+            "confidence": 63.93,
+            "risk_level": "MODERATE",
+            "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (96.9% confidence) and 'Disgust' vocal tone (31.0% confidence). Fused clinical stress index measured at 30.38/100 (MODERATE risk).",
+            "recommendations": {
+                "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+                "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+                "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+                "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+                "clinical_note": "Moderate Stress Detected - Mindfulness and relaxation recommended."
+            }
+        }
+    },
+    "SESS-FEE6BF60": {
+        "session_id": "SESS-FEE6BF60",
+        "patient_id": "PAT-1002",
+        "start_time": "2026-08-31T09:31:28.789342+00:00",
+        "end_time": "2026-08-31T09:31:58.119253+00:00",
+        "status": "COMPLETED",
+        "face_predictions": [
+            {
+                "emotion": "Neutral",
+                "confidence": 96.87,
+                "probabilities": {
+                    "Angry": 0.0207,
+                    "Disgust": 0.0005,
+                    "Fear": 0.0057,
+                    "Happy": 0.0003,
+                    "Sad": 0.0005,
+                    "Surprise": 0.0036,
+                    "Neutral": 0.9687
+                },
+                "timestamp": "2026-08-31T09:31:50.415152+00:00"
+            }
+        ],
+        "voice_predictions": [
+            {
+                "emotion": "Disgust",
+                "confidence": 31.0,
+                "probabilities": {
+                    "Angry": 0.08,
+                    "Disgust": 0.31,
+                    "Fear": 0.0,
+                    "Happy": 0.23,
+                    "Neutral": 0.17,
+                    "Sad": 0.06,
+                    "Surprise": 0.15
+                },
+                "timestamp": "2026-08-31T09:31:55.470957+00:00"
+            }
+        ],
+        "fused_result": {
+            "overall_emotion": "Neutral",
+            "face_emotion": "Neutral",
+            "face_confidence": 96.87,
+            "voice_emotion": "Disgust",
+            "voice_confidence": 31.0,
+            "stress_score": 30.38,
+            "mental_health_score": 69.62,
+            "confidence": 63.93,
+            "risk_level": "MODERATE",
+            "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (96.9% confidence) and 'Disgust' vocal tone (31.0% confidence). Fused clinical stress index measured at 30.38/100 (MODERATE risk).",
+            "recommendations": {
+                "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+                "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+                "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+                "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+                "clinical_note": "Moderate Stress Detected - Mindfulness and relaxation recommended."
+            }
+        }
+    },
+    "SESS-1D83EE84": {
+        "session_id": "SESS-1D83EE84",
+        "patient_id": "PAT-1002",
+        "start_time": "2026-08-31T09:48:54.884673+00:00",
+        "end_time": "2026-08-31T09:49:28.701645+00:00",
+        "status": "COMPLETED",
+        "face_predictions": [
+            {
+                "emotion": "Neutral",
+                "confidence": 99.66,
+                "probabilities": {
+                    "Angry": 0.0009,
+                    "Disgust": 0.0,
+                    "Fear": 0.0,
+                    "Happy": 0.0,
+                    "Sad": 0.0003,
+                    "Surprise": 0.0022,
+                    "Neutral": 0.9966
+                },
+                "timestamp": "2026-08-31T09:49:12.399036+00:00"
+            }
+        ],
+        "voice_predictions": [
+            {
+                "emotion": "Disgust",
+                "confidence": 31.0,
+                "probabilities": {
+                    "Angry": 0.08,
+                    "Disgust": 0.31,
+                    "Fear": 0.0,
+                    "Happy": 0.23,
+                    "Neutral": 0.17,
+                    "Sad": 0.06,
+                    "Surprise": 0.15
+                },
+                "timestamp": "2026-08-31T09:49:25.745178+00:00"
+            }
+        ],
+        "fused_result": {
+            "overall_emotion": "Neutral",
+            "face_emotion": "Neutral",
+            "face_confidence": 99.66,
+            "voice_emotion": "Disgust",
+            "voice_confidence": 31.0,
+            "stress_score": 30.14,
+            "mental_health_score": 69.86,
+            "confidence": 65.33,
+            "risk_level": "MODERATE",
+            "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (99.7% confidence) and 'Disgust' vocal tone (31.0% confidence). Fused clinical stress index measured at 30.14/100 (MODERATE risk).",
+            "recommendations": {
+                "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+                "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+                "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+                "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+                "clinical_note": "Moderate Stress Detected - Mindfulness and relaxation recommended."
+            }
+        }
+    },
+    "SESS-680CE56F": {
+        "session_id": "SESS-680CE56F",
+        "patient_id": "PAT-1002",
+        "start_time": "2026-08-31T10:24:46.010877+00:00",
+        "end_time": "2026-08-31T10:25:47.474897+00:00",
+        "status": "COMPLETED",
+        "face_predictions": [
+            {
+                "emotion": "Neutral",
+                "confidence": 99.7,
+                "probabilities": {
+                    "Angry": 0.0002,
+                    "Disgust": 0.0,
+                    "Fear": 0.0,
+                    "Happy": 0.0,
+                    "Sad": 0.0003,
+                    "Surprise": 0.0025,
+                    "Neutral": 0.997
+                },
+                "timestamp": "2026-08-31T10:25:13.464824+00:00"
+            }
+        ],
+        "voice_predictions": [
+            {
+                "emotion": "Disgust",
+                "confidence": 31.0,
+                "probabilities": {
+                    "Angry": 0.08,
+                    "Disgust": 0.31,
+                    "Fear": 0.0,
+                    "Happy": 0.23,
+                    "Neutral": 0.17,
+                    "Sad": 0.06,
+                    "Surprise": 0.15
+                },
+                "timestamp": "2026-08-31T10:25:21.430499+00:00"
+            }
+        ],
+        "fused_result": {
+            "overall_emotion": "Neutral",
+            "face_emotion": "Neutral",
+            "face_confidence": 99.7,
+            "voice_emotion": "Disgust",
+            "voice_confidence": 31.0,
+            "stress_score": 30.14,
+            "mental_health_score": 69.86,
+            "confidence": 65.35,
+            "risk_level": "MODERATE",
+            "doctor_observation": "Patient exhibited predominantly 'Neutral' facial expression (99.7% confidence) and 'Disgust' vocal tone (31.0% confidence). Fused clinical stress index measured at 30.14/100 (MODERATE risk).",
+            "recommendations": {
+                "walking_goals": "Target 7,500 daily steps for optimal endorphin release.",
+                "meditation": "15 minutes of guided deep breathing exercises twice daily.",
+                "sleep": "Maintain 7.5 to 8 hours of consistent nightly sleep.",
+                "hydration": "Drink 2.5 to 3.0 Liters of water daily.",
+                "clinical_note": "Moderate Stress Detected - Mindfulness and relaxation recommended."
+            }
+        }
+    }
+}
