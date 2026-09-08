@@ -36,13 +36,7 @@ const Assessment = ({ }: { user?: any }) => {
 
 
 
-  const stopCamera = () => {
-    if (videoRef.current && videoRef.current.srcObject) {
-      const tracks = (videoRef.current.srcObject as MediaStream).getTracks();
-      tracks.forEach(track => track.stop());
-      setIsCameraOn(false);
-    }
-  };
+
 
 
   const handleFaceUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
