@@ -12,7 +12,7 @@ const Assessment = ({ }: { user?: any }) => {
     gender: 'Female'
   });
   const [results, setResults] = useState<string[]>([]);
-  const videoRef = useRef<HTMLVideoElement>(null);
+
 
 
   const logResult = (msg: string) => setResults(prev => [...prev, msg]);
