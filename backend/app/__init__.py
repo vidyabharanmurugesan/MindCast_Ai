@@ -28,6 +28,13 @@ def create_app(config_object: Any = None) -> Flask:
     """
     setup_logging()
     app = Flask(__name__)
+    @app.route("/", methods=["GET", "HEAD"])
+def root():
+    return {
+        "status": "success",
+        "message": "MindCast AI Backend is running",
+        "health": "/api/v1/health"
+    }, 200
     
     # Load configuration
     app.config["SECRET_KEY"] = settings.SECRET_KEY
