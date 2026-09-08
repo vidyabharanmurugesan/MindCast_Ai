@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { Camera, Upload } from 'lucide-react';
+import {  Upload } from 'lucide-react';
 
 const API_BASE = 'http://localhost:5000/api/v1';
 
@@ -13,7 +13,7 @@ const Assessment = ({ }: { user?: any }) => {
   });
   const [results, setResults] = useState<string[]>([]);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isCameraOn, setIsCameraOn] = useState(false);
+
 
   const logResult = (msg: string) => setResults(prev => [...prev, msg]);
 
@@ -34,19 +34,7 @@ const Assessment = ({ }: { user?: any }) => {
     }
   };
 
-  const startCamera = async () => {
-    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-      try {
-        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-        if (videoRef.current) {
-          videoRef.current.srcObject = stream;
-          setIsCameraOn(true);
-        }
-      } catch (err) {
-        logResult('Error accessing camera.');
-      }
-    }
-  };
+
 
   const stopCamera = () => {
     if (videoRef.current && videoRef.current.srcObject) {
@@ -56,21 +44,6 @@ const Assessment = ({ }: { user?: any }) => {
     }
   };
 
-  const capturePhoto = () => {
-    if (videoRef.current) {
-      const canvas = document.createElement('canvas');
-      canvas.width = videoRef.current.videoWidth;
-      canvas.height = videoRef.current.videoHeight;
-      canvas.getContext('2d')?.drawImage(videoRef.current, 0, 0);
-      canvas.toBlob(async (blob) => {
-        if (blob) {
-          const file = new File([blob], 'capture.png', { type: 'image/png' });
-          await uploadFace(file);
-          stopCamera();
-        }
-      }, 'image/png');
-    }
-  };
 
   const handleFaceUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
