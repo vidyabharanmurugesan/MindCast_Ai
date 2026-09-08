@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import {  Upload } from 'lucide-react';
 
 const API_BASE = 'http://localhost:5000/api/v1';
