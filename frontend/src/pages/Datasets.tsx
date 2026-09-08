@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Search } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api/v1';
+const API_BASE = 'https://mindcast-ai-server.onrender.com/api/v1';
 
 const Datasets = () => {
   const [logs, setLogs] = useState<string[]>([]);
