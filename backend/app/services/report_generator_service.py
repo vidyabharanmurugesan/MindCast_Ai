@@ -31,7 +31,7 @@ class ReportGeneratorService:
         default_patient = {
             "patient_id": session_data.get("patient_id", "PAT-1002"),
             "name": " ",
-            "age": ,
+            "age": patient_details.get("age"),
             "gender": "",
             "hospital": "MindCast Ai",
             "attending_physician": " "
