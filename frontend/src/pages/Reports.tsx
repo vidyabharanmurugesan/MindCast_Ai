@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Download, FileText } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api/v1';
+const API_BASE = 'https://mindcast-ai-server.onrender.com/api/v1';
 
 interface Report {
   report_id: string;
