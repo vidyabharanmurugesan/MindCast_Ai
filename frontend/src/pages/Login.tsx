@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_BASE = 'http://localhost:5000/api/v1';
+const API_BASE = 'https://mindcast-ai-server.onrender.com/api/v1';
 
 const Login = ({ onLogin }: { onLogin: (user: any) => void }) => {
   const [isLogin, setIsLogin] = useState(true);
