@@ -17,15 +17,6 @@ logger = get_logger(__name__)
 
 
 def create_app(config_object: Any = None) -> Flask:
-    """
-    Application Factory for Flask AI Mental Health Assistant Backend.
-
-    Args:
-        config_object: Optional configuration object to override defaults.
-
-    Returns:
-        Flask: Configured Flask application instance.
-    """
     setup_logging()
     app = Flask(__name__)
 
@@ -41,36 +32,23 @@ def create_app(config_object: Any = None) -> Flask:
     app.config["SECRET_KEY"] = settings.SECRET_KEY
     app.config["ENV"] = settings.FLASK_ENV
     app.config["DEBUG"] = settings.DEBUG
-def root():
-    return {
-        "status": "success",
-        "message": "MindCast AI Backend is running",
-        "health": "/api/v1/health"
-    }, 200
-    
-    # Load configuration
-    app.config["SECRET_KEY"] = settings.SECRET_KEY
-    app.config["ENV"] = settings.FLASK_ENV
-    app.config["DEBUG"] = settings.DEBUG
-    
+
     if config_object:
         app.config.from_object(config_object)
-        
-    # Enable CORS
+
     CORS(app, resources={r"/api/*": {"origins": "*"}})
-    
-    # Register error handlers
+
     register_error_handlers(app)
-    
-    # Register Blueprints
+
     app.register_blueprint(health_bp, url_prefix="/api/v1")
     app.register_blueprint(dataset_bp, url_prefix="/api/v1")
     app.register_blueprint(model_bp, url_prefix="/api/v1")
     app.register_blueprint(clinical_bp, url_prefix="/api/v1")
     app.register_blueprint(auth_bp, url_prefix="/api/v1")
-    
-    logger.info("AI Mental Health Assistant Backend Application Initialized Successfully")
+
+    logger.info(
+        "AI Mental Health Assistant Backend Application Initialized Successfully"
+    )
+
     return app
-
-
 
